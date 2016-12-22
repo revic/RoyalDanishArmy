@@ -1,0 +1,298 @@
+﻿BWA3 Version 1.4
+
+- added: LLM01 Underbarrel
+- added: G38 variants
+- added: G36C Ironsights
+- added: Localized names of mod components for "Required addons for scenario" tab
+- changed: RGW90 position on back
+- fixed: After 1.60 the flight path of PzF3 rocket was wrong
+- fixed: Mixed up description of HE and HEAT ammunition for 84mm Leuchtbüchse
+- fixed: Night vision device was attachable to 84mm Leuchtbüchse
+- fixed: Undefined variable "BWA3_optics_camera" when leaving Puma or Leopard
+- fixed: No entry 'bin\config.bin/CfgVehicles/Tank_F/HitPoints/HitFuel.name'
+
+________________________________________________________________________________________________________________________________________________________
+
+BWA3 Version 1.3.4
+
+- added: ZO 4x30 without RSAS
+- added: 3DEN Editor-preview icons
+- added: author to CfgPatches
+- added: Carl Gustaf
+- fixed: "No entry 'bin\config.bin/RscTitles/BWA3_NaviPad/Map.LineMarker'." error pop up
+- fixed: "Warning Message: 'author/' is not a value" error pop up, note: other mods may still cause the same issue
+- fixed: Sounds broken, resampled every sound to 44.1KHz and 16Bit, further converted all to WSS
+- fixed: Toggling to the day laser version would delete the LLM on the P8
+- fixed: Removing night vision attachment from Panzerfaust via keybinding
+- fixed: Curators in 3DEN missions would no longer recognize all BWA3 classes as "Official Addons"
+- fixed: RPT error Hitfuel for Puma and Leopard
+- changed: replaced some functions with improved CBA versions (edited)
+- changed: MG sounds (louder)
+
+________________________________________________________________________________________________________________________________________________________
+
+
+BWA3 Version 1.3.3
+
+-added: LLM-01 and Vario Ray day laser mode with ACE
+-added: mission attributes to configure the ammo of respawning IFV Puma and MBT Leopard
+-changed: deproxyfied the Leopard after changes made to Binarize (retexturing now possible)
+-fixed: shadow issues with certain LODs on the Leopard
+-fixed: script error when using NaviPad with helmet cams
+-fixed: script error when trying to add thermal optic
+-fixed: IFV Puma FCS doesn't work with ACE FCS
+
+______________________________________________________________________________________________________________________________________________________________
+
+
+BWA3 Version 1.3.2
+
+-added: P2A1 Flare Gun
+-added: Compatibility with 3DEN mission editor.
+-added: Container without camo net can now be sling loaded
+-fixed: DM25 and DM32 Smoke Grenades collisions with wall
+-changed: NaviPad will reopen after leaving optics mode
+-fixed: Muzzle flashes in Arsenal
+-fixed: Last shot of a magazine causes no muzzle flash
+-fixed: Holstered animation of P8 and MP7
+- removed: modules (replaced with object attributes)
+
+______________________________________________________________________________________________________________________________________________________________
+
+
+BWA3 Version 1.3.1
+
+-added: Heli pilot uniform to both BW gear boxes
+-added: TFAR-radio to AH Tiger
+-fixed: CTD when starting the game after 1.54 update
+-fixed: "Error: Bone XYZ doesn't exist in skeleton OFP2_ManSkeleton" RPT spam
+-fixed: "Cannot open object bwa3_weapons\bwa3_rsas.p3d" popup when attaching NSV600 to ZO4x30
+-fixed: IFV Puma ABM doesn't work (#14)
+-fixed: Random RPT error when switching from the gunners seat in an otherwise empty IFV Puma
+-fixed: IFV Puma and MBT Leopard ammunition modules only work on empty vehicles
+-fixed: MBT Leopard loader-MG5 has no sound (#15)
+-fixed: Sound effects of lock and incoming missile detection system of AH Tiger (#16)
+-fixed: Serial number on AH Tiger could be "00"
+-fixed: Tiger Parscap FireGeometry
+
+______________________________________________________________________________________________________________________________________________________________
+
+
+BWA3 Version 1.3
+
+- added: UH Tiger
+- added: Helipilot uniform
+- added: Knighthelm
+- added: integrated CBA Joint Rails (remove your BWA3_Comp_ASDG!)
+- added: custom G27 / G28 silencer sounds
+- added: MG4 and MG5 Tracer magazines
+- added: modules to customize BW vehicles
+- added: Fernspaeher (recon) sub faction
+- added: other misc. soldier classes
+- added: BW icon in Virtual Arsenal
+- added: missing items to VA box
+- added: TFAR BW radios to VA box
+- changed: adjusted interaction positions on IFV Puma and MBT Leopard with ACE
+- fixed: missing classes in Zeus
+- fixed: wording in field manual for NaviPad (German)
+- fixed: missing materials in FIRE geometry on MBT Leopard
+- fixed: material effect with impacting rounds on all models
+- fixed: smoke launchers weren't synched in MP
+- fixed: IFV Puma doesn't fall over as easily when turning on high speeds
+- fixed: IFV Puma ABM rounds with ACE FCS
+- fixed: dragging and carrying BW boxes with ACE
+
+______________________________________________________________________________________________________________________________________________________________
+
+
+BWA3 Version 1.2.2
+
+- fixed: Rendering issue with certain uniforms due to Arma v1.52 update.
+
+______________________________________________________________________________________________________________________________________________________________
+
+
+BWA3 Version 1.2.1
+
+- fixed: Animated 2D optics were not scaled properly for 16:10 and tripple screens.
+- fixed: G28E3 and G27 variants had an invisible bipod.
+- fixed: Puma main gun single fire didn't work.
+- fixed: Leopard rearview mirrors were interchanged.
+
+______________________________________________________________________________________________________________________________________________________________
+
+
+BWA3 Version 1.2
+
+- added: optional PBO to enable PIP optics (ZO4x30, Shortdot, PzF3)
+- added: correct weapon sway values
+- added: correct weapon inertia values
+- added: different muzzle velocities for weapons with different barrel length
+- added: animated bipod to various weapons
+- added: tails sounds from Marksmen update
+- added: ejecting belt parts effect to MG4 and MG5
+- added: Rotex silencer models for 5.56mm and 7.62mm
+- added: Vario Ray laser light module
+- added: Black variant of G27 and G27 w/ AG40
+- added: EoTech CQB and with magnifier in black and tan
+- added: new uniforms (reskins of AAF uniform)
+- added: insignia selection
+- added: MICH helment (reskin of AAF MICH helmet)
+- added: retextures of various backpacks (thanks Rider)
+- added: Kampfrucksack model
+- added: camo netting for Puma and Leopard that can be removed ingame
+- added: compatibility for the Virtual Arsenal and Garage
+- added: commander of MBT Leopard now has a FFV compatible slot
+- added: alternative random texture variant for MBT Leopard in Flecktarn
+- added: white retexture of ammo boxes (placeholder)
+- added: camo netting variant of Democracy box
+- added: Democracy box with Virtual Arsenal
+- added: German flag on flagpole
+- changed: NATO uniform retexture to hide arm and knee protectors
+- changed: default loadouts in some cases
+- changed: possible ethnicities of German soldiers no longer include africans and african americans
+- changed: randomization includes only BW goggles
+- changed: increased recoil of G27/28 variants and MP7
+- changed: zoom of the Vector IV so mil dots are now correct
+- changed: appearence of PzF 3 when carried on the back
+- changed: weight and icon of the 7x62mm 1200Rnd belt
+- changed: Geometry LODs of vehicles to allow driving over obstacles more easily
+- changed: animation of tracks on vehicles
+- changed: reworked vehicle PhysX behaviour
+- changed: completely reworked configs to guarantee compatibility and fix various issues
+- changed: interiors of Puma and Leopard
+- changed: various sounds
+- changed: various textures, normal maps, and specular maps
+- changed: animations of mounted Panzergrenadiers in IFV Puma
+- changed: Thermal map of IFV Puma
+- changed: 10x 120Rnd MG5 belts for Leopard loader replaced with one 1200Rnd belt to circumvent a reload bug in the Arma engine
+- changed: hitpoints for MBT Leopard. Main gun and turret should now be more resistant. Commander optics and loaders MG5 can now be destroyed.
+- changed: camo netting now comes in parts
+- changed: contents of boxes; Democracy box is now filled by script
+- changed: keys are now adjusted with the CBA keybinding system, please check your keybinds!
+- changed: way units are sorted in the editor
+- changed: Reddot sizes
+- changed: Leopard 2A6M sounds
+- changed: G36 sounds
+- changed: Fliegerfaust usability
+- fixed: weapon reloading sounds were not working correctly
+- fixed: localization issues with umlauts and eszetts
+- fixed: you no longer sink into the ground when deploying a weapon
+- fixed: various recoil issues (e.g. P8 pistol)
+- fixed: gunner of MBT Leopard is no longer vulnerable to small arms fire
+- fixed: some issues with the behaviour of the Vector IV
+- fixed: some wrong texture references in proxies
+- fixed: various issues in the shadow LODs of IFV Puma and MBT Leopard
+- fixed: removed active radar from vehicles
+- fixed: Leopard mirrors were to high
+- fixed: vehicle MG5s were using vanilla sounds instead of the intended one
+- fixed: texture issue on the left side composite armour of the IFV Puma
+- fixed: issue in Geometry LOD of IFV Puma that may cause collisions with projectiles far away from the vehicle
+- fixed: strange vertex in component01 RPT error
+- fixed: bwa3_leopard2a6m_wanne_fleck.p3d has no config RPT error
+- fixed: all duplicate strings
+- fixed: all updating base class issues
+- fixed: added author "BWMod" to hopefully everything
+- removed: obsolete BWA3 menu
+- removed: Kestrel in favour of third party variants (e.g. ACE3)
+
+______________________________________________________________________________________________________________________________________________________________
+
+
+BWA3 Version 1.3 (deutsch)
+
+- hinzugefügt: UH-Tiger
+- hinzugefügt: Helipilot-Uniform
+- hinzugefügt: Knighthelm
+- hinzugefügt: CBA Joint Rails-Integration (BWA3_Comp_ASDG entfernen!)
+- hinzugefügt: Eigene G27 / G28 Schalldämpfer-Sounds
+- hinzugefügt: MG4 und MG5 Leuchtspurmagazine
+- hinzugefügt: Module zur Anpassung der BW-Fahrzeuge
+- hinzugefügt: Fernspäher (Aufklärer) Unterfraktion
+- hinzugefügt: Verschiedene weitere Soldatenklassen
+- hinzugefügt: BW-Icons im Virtuellen Arsenal
+- hinzugefügt: Fehlende Gegenstände zur VA-Box
+- hinzugefügt: TFAR BW-Funkgeräte zur VA-Box
+- geändert: Position des ACE-Interaktionsmenüs an SPz Puma und KPz Leopard angepasst
+- behoben: Fehlende Klassen in Zeus
+- behoben: Fehlerhafte Formulierung im Feldhandbuch über NaviPad (Deutsch)
+- behoben: Fehlende Materialien in der FIRE-Geometry des KPz Leopard
+- behoben: Materialeffekte einschlagender Projektile an allen Modellen
+- behoben: Rauchwand im Mehrspieler-Modus
+- behoben: SPz Puma kippt mit hohen Geschwindigkeiten nicht mehr so leicht um
+- behoben: SPz Puma ABM-Munition mit ACE-Feuerleitsystem
+- behoben: Ziehen und Tragen der BW-Kisten mit ACE
+
+
+BWA3 Version 1.2 (deutsch)
+ 
+-hinzugefügt: optionale PBO, um PIP-Optiken einzuschalten (ZO4x30, Shortdot, PzF3)
+-hinzugefügt: korrekte Nachschwingwerte bei Waffen
+-hinzugefügt: korrekte Waffenträgheitswerte
+-hinzugefügt: verschiedene Mündungsgeschwindigkeiten für Waffen mit unterschiedlichen Lauflängen
+-hinzugefügt: animierte Zweibeine für verschiedene Waffen
+-hinzugefügt: Geräuschkulisse (tails sounds) vom Marksman-Update
+-hinzugefügt: Auswurf von Gurtteilen bei MG4 und MG5
+-hinzugefügt: Rotex Schalldämpfe für 5.56mm und 7.62mm
+-hinzugefügt: Vario Ray Laser-Licht-Modul
+-hinzugefügt: schwarze Variante des G27 und G27 mit AG40
+-hinzugefügt: EoTech CQB mit Verstärker in Schwarz und Tan
+-hinzugefügt: neue Uniformen (retexturierte AAF-Uniformen)
+-hinzugefügt: Abzeichen für Uniform
+-hinzugefügt: MICH-Helm (retexturierter AAF-MICH-Helm)
+-hinzugefügt: Retexturen verschiedener Rucksäcke (Danke Rider)
+-hinzugefügt: Kampfrucksack-Modell    
+-hinzugefügt: Tarnnetze für Puma und Leopard, die im Spiel entfernt werden können
+-hinzugefügt: Kompatibilität mit dem Virtuellen Arsenal und der Garage
+-hinzugefügt: Kommandant des KPz Leopard ist FFV-kompatibel
+-hinzugefügt: alternative, zufällige Texturvariante des KPz Leopard in Flecktarn
+-hinzugefügt: weiße Retextur der Munitionskisten (Platzhalter)
+-hinzugefügt: Tarnnetzvariante des Demokratiecontainers
+-hinzugefügt: Deutsche Flagge an Flaggenmast
+-geändert: NATO-Uniform-Retextur, um Arm- und Knieschoner zu verstecken
+-geändert: Standardausrüstung in einigen Fällen
+-geändert: mögliche Ethnien der deutschen Soldaten beinhalten nicht länger Afrikaner und Afroamerikaner
+-geändert: Zufallsgenerierung beihnaltet nur BW-Brillen
+-geändert: erhöhter Rückschlag der G27/28-Varianten und der MP7
+-geändert: Vergrößerung des Vector IV, damit Mil-Dots korrekt sind
+-geändert: Erscheinungsbild der PzF3 beim Tragen
+-geändert: Gewicht und Bild des 7.62mm 1200er Gurt
+-geändert: Geometrie-LODs der Fahrzeuge, um Hindernisse leichter zu passieren
+-geändert: Kettenanimation an Fahrzeugen
+-geändert: überarbeitetes PhysX-Fahrzeugverhalten
+-geändert: komplett überarbeitete Konfigs, um Kompatibilität zu gewährleisten und verschiedene Fehler zu beheben
+-geändert: 2D-Innenräume vom Puma und Leopard
+-geändert: diverse Texturen, Normal-maps und Specular-maps
+-geändert: Animation der aufgesessenen Panzergrenadiere im SPz Puma
+-geändert: Thermaltextur des SPz Puma
+-geändert: 10x120er Gurt beim MG5 des Leopard-Ladeschützen durch einen 1200er Gurt ersetzt, um einen Nachladefehler in der Arma-Enginge zu umgehen
+-geändert: Hitpoints des KPz Leopard. Hauptgeschütz und Turm sollten jetzt besser geschützt sein. Kommandantenoptiken und Ladeschützen-MG5 können jetzt beschädigt werden
+-geändert: Tarnnetze in Einzelteilen verfügbar
+-geändert: Inhalt der Boxen; Demokratiecontainer wird nun durch ein Script befüllt
+-geändert: Tasten werden nun durch das CBA-Tastenbelegungssystem angepasst. Überprüft eure Tastenbelegung!
+-geändert: Sortierung der Einheiten im Editor
+-geändert: Größe der Rotpunkte
+-geändert: Klang des KPz Leopard
+-geändert: Klang des G36
+-geändert: erhöhte Fliegerfausteffektivität
+-behoben: Nachladegeräusche der Waffen funktionierten nicht richtig
+-behoben: Übersetzungsfehler mit Umlauten und ß
+-behoben: Man sinkt nicht mehr länger in den Boden, wenn eine Waffe aufgelegt wird.
+-behoben: Diverse Rückstoßfehler (z.B.: P8 Pistole)
+-behoben: Richtschütze des Leopard 2 ist nicht mehr durch Handfeuerwaffen verwundbar
+-behoben: Einige Probleme mit dem Verhalten des Vector IV
+-behoben: Einige falsche Texturen in den Proxies
+-behoben: Diverse Probleme mit den Schatten LOD des SPZ Puma und KPZ Leopard
+-behoben: Aktiver Radar von Fahrzeugen entfernt
+-behoben: Leopard Spiegel waren zu hoch
+-behoben: Das MG5 auf Fahrzeugen nutzte Vanilla Schussgeräusche
+-behoben: Texturprobleme an der linken Verbundpanzerung des SPZ Puma
+-behoben: Probleme im Geometrie LOD des SPZ Puma, welche unter Umständen Kollisionen mit Projektilen weiter entfernt vom Fahrzeug verursacht haben
+-behoben: "strange vertex in component01" RPT-Fehler
+-behoben: "bwa3_leopard2a6m_wanne_fleck.p3d has no config" RPT-Fehler
+-behoben: Alle doppelten Strings
+-behoben: Alle "updating base class"-Fehler
+-behoben: Autor "BWMod" hinzugefügt
+-entfernt: Überflüssiges BWA3-Menü
+-entfernt: Kestrel zugunsten anderer Modifikationen (z.B.: ACE3)
+
