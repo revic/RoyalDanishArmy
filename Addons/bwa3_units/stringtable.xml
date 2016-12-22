@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="BWMod">
+  <Package name="Units">
+
+    <Key ID="STR_BWA3_Component_Units">
+      <English>Royal Danish Army - Characters and Clothing</English>
+      <German>Bundeswehr - Charaktere und Bekleidungen</German>
+    </Key>
+
+    <Key ID="STR_BWA3_RiflemanName">
+      <English>Rifleman</English>
+      <German>Schütze</German>
+    </Key>
+    <Key ID="STR_BWA3_RiflemanLiteName">
+      <English>Rifleman (Light)</English>
+      <German>Schütze (leicht)</German>
+    </Key>
+    <Key ID="STR_BWA3_RiflemanUnarmedName">
+      <English>Rifleman (Unarmed)</English>
+      <German>Schütze (unbewaffnet)</German>
+    </Key>
+    <Key ID="STR_BWA3_RiflemanG27Name">
+      <English>Rifleman (G27)</English>
+      <German>Schütze (G27)</German>
+    </Key>
+    <Key ID="STR_BWA3_GrenadierName">
+      <English>Grenadier</English>
+      <German>Grenadier</German>
+    </Key>
+    <Key ID="STR_BWA3_GrenadierG27Name">
+      <English>Grenadier (G27)</English>
+      <German>Grenadier (G27)</German>
+    </Key>
+    <Key ID="STR_BWA3_AutoriflemanName">
+      <English>Autorifleman</English>
+      <German>MG-Schütze</German>
+    </Key>
+    <Key ID="STR_BWA3_AutoriflemanMG5Name">
+      <English>Autorifleman (MG5)</English>
+      <German>MG-Schütze (MG5)</German>
+    </Key>
+    <Key ID="STR_BWA3_MachineGunnerName">
+      <English>Machine Gunner</English>
+      <German>Maschinengewehrschütze</German>
+    </Key>
+    <Key ID="STR_BWA3_CombatLifeSaverName">
+      <English>Combat Life Saver</English>
+      <German>Sanitäter</German>
+    </Key>
+    <Key ID="STR_BWA3_MarksmanName">
+      <English>Marksman</English>
+      <German>Gruppenscharfschütze</German>
+    </Key>
+    <Key ID="STR_BWA3_RiflemanG28Name">
+      <English>Rifleman (G28)</English>
+      <German>Schütze (G28)</German>
+    </Key>
+    <Key ID="STR_BWA3_SniperName">
+      <English>Sniper</English>
+      <German>Scharfschütze</German>
+    </Key>
+    <Key ID="STR_BWA3_SpotterName">
+      <English>Spotter</English>
+      <German>Spotter</German>
+    </Key>
+    <Key ID="STR_BWA3_RiflemanATRGW90Name">
+      <English>Rifleman (AT) (RGW 90)</English>
+      <German>Panzerabwehrschütze (RGW 90)</German>
+    </Key>
+    <Key ID="STR_BWA3_RiflemanATPzf3Name">
+      <English>Rifleman (AT) (Pzf 3)</English>
+      <German>Panzerabwehrschütze (Pzf 3)</German>
+    </Key>
+    <Key ID="STR_BWA3_RiflemanATCGName">
+      <English>Rifleman (Illumination)</English>
+      <German>Panzerabwehrschütze (Beleuchtung)</German>
+    </Key>
+    <Key ID="STR_BWA3_RiflemanAAFliegerfaustName">
+      <English>Rifleman (AA)</English>
+      <German>Flugabwehrschütze</German>
+    </Key>
+    <Key ID="STR_BWA3_EngineerName">
+      <English>Engineer</English>
+      <German>Pionier</German>
+    </Key>
+    <Key ID="STR_BWA3_TLName">
+      <English>Team Leader</English>
+      <German>Truppführer</German>
+    </Key>
+    <Key ID="STR_BWA3_SLName">
+      <English>Squad Leader</English>
+      <German>Gruppenführer</German>
+    </Key>
+    <Key ID="STR_BWA3_CrewName">
+      <English>Crewman</English>
+      <German>Besatzung</German>
+    </Key>
+    <Key ID="STR_BWA3_TankCommanderName">
+      <English>Tank Commander</English>
+      <German>Panzerkommandant</German>
+    </Key>
+    <Key ID="STR_BWA3_HelipilotName">
+      <English>Heli Pilot</English>
+      <German>Helipilot</German>
+    </Key>
+    <Key ID="STR_BWA3_OfficerName">
+      <English>Officer</English>
+      <German>Offizier</German>
+    </Key>
+    <Key ID="STR_BWA3_AAutoriflemanName">
+      <English>Asst. Autorifleman</English>
+      <German>Zweiter MG-Schütze</German>
+    </Key>
+    <Key ID="STR_BWA3_AAutoriflemanMG5Name">
+      <English>Asst. Autorifleman (MG5)</English>
+      <German>Zweiter MG-Schütze (MG5)</German>
+    </Key>
+    <Key ID="STR_BWA3_RiflemanAAAName">
+      <English>Asst. Rifleman (AA)</English>
+      <German>Zweiter Flugabwehrschütze</German>
+    </Key>
+
+    <Key ID="STR_BWA3_ReconName">
+      <English>Fernspäher Scout</English>
+      <German>Fernspäher Aufklärer</German>
+    </Key>
+    <Key ID="STR_BWA3_Recon_LATName">
+      <English>Fernspäher Recon (RGW90)</English>
+      <German>Fernspäher Aufklärer (RGW90)</German>
+    </Key>
+    <Key ID="STR_BWA3_Recon_EXPName">
+      <English>Fernspäher Pioneer</English>
+      <German>Fernspäher Pionier</German>
+    </Key>
+    <Key ID="STR_BWA3_Recon_TLName">
+      <English>Fernspäher Team Leader</English>
+      <German>Fernspäher Teamleader</German>
+    </Key>
+    <Key ID="STR_BWA3_Recon_MedicName">
+      <English>Fernspäher Paramedic</English>
+      <German>Fernspäher Sanitäter</German>
+    </Key>
+    <Key ID="STR_BWA3_Recon_MarksmanName">
+      <English>Fernspäher Marksman</English>
+      <German>Fernspäher Scharfschütze</German>
+    </Key>
+    <Key ID="STR_BWA3_Recon_RadiomanName">
+      <English>Fernspäher Radioman</English>
+      <German>Fernspäher Funker</German>
+    </Key>
+
+    <Key ID="STR_BWA3_UniformFleckName">
+      <English>BW Uniform (Flecktarn)</English>
+      <German>BW Kampfanzug (Flecktarn)</German>
+    </Key>
+    <Key ID="STR_BWA3_UniformTropenName">
+      <English>BW Uniform (Tropentarn)</English>
+      <German>BW Kampfanzug (Tropentarn)</German>
+    </Key>
+    <Key ID="STR_BWA3_Uniform2FleckName">
+      <English>BW Uniform (Flecktarn, Sleeves)</English>
+      <German>BW Kampfanzug (Flecktarn, Ärmel)</German>
+    </Key>
+    <Key ID="STR_BWA3_Uniform2TropenName">
+      <English>BW Uniform (Tropentarn, Sleeves)</English>
+      <German>BW Kampfanzug (Tropentarn, Ärmel)</German>
+    </Key>
+    <Key ID="STR_BWA3_UniformIDZFleckName">
+      <English>IdZ Uniform (Flecktarn)</English>
+      <German>IdZ-Kampfanzug (Flecktarn)</German>
+    </Key>
+    <Key ID="STR_BWA3_UniformIDZTropenName">
+      <English>IdZ Uniform (Tropentarn)</English>
+      <German>IdZ-Kampfanzug (Tropentarn)</German>
+    </Key>
+    <Key ID="STR_BWA3_Uniform2IDZFleckName">
+      <English>IdZ Uniform (Flecktarn, Tee)</English>
+      <German>IdZ-Kampfanzug (Flecktarn, T-Shirt)</German>
+    </Key>
+    <Key ID="STR_BWA3_Uniform2IDZTropenName">
+      <English>IdZ Uniform (Tropentarn, Tee)</English>
+      <German>IdZ-Kampfanzug (Tropentarn, T-Shirt)</German>
+    </Key>
+    <Key ID="STR_BWA3_Uniform3IDZFleckName">
+      <English>IdZ Uniform (Flecktarn, Sleeves)</English>
+      <German>IdZ-Kampfanzug (Flecktarn, Ärmel)</German>
+    </Key>
+    <Key ID="STR_BWA3_Uniform3IDZTropenName">
+      <English>IdZ Uniform (Tropentarn, Sleeves)</English>
+      <German>IdZ-Kampfanzug (Tropentarn, Ärmel)</German>
+    </Key>
+    <Key ID="STR_BWA3_UniformCrewFleckName">
+      <English>Boilersuit (Flecktarn)</English>
+      <German>Overall (Flecktarn)</German>
+    </Key>
+    <Key ID="STR_BWA3_UniformCrewTropenName">
+      <English>Boilersuit (Tropentarn)</English>
+      <German>Overall (Tropentarn)</German>
+    </Key>
+    <Key ID="STR_BWA3_UniformHelipilotName">
+      <English>Boilersuit (Heli Pilot)</English>
+      <German>Overall (Helipilot)</German>
+    </Key>
+    <Key ID="STR_BWA3_UniformTarnFleckName">
+      <English>BW Ghillie suit (Flecktarn)</English>
+      <German>BW Tarnanzug (Flecktarn)</German>
+    </Key>
+    <Key ID="STR_BWA3_UniformTarnTropenName">
+      <English>BW Ghillie suit (Tropentarn)</English>
+      <German>BW Tarnanzug (Tropentarn)</German>
+    </Key>
+    <Key ID="STR_BWA3_UniformTarnIDZFleckName">
+      <English>IdZ Ghillie suit (Flecktarn)</English>
+      <German>IdZ-Tarnanzug (Flecktarn)</German>
+    </Key>
+    <Key ID="STR_BWA3_UniformTarnIDZTropenName">
+      <English>IdZ Ghillie suit (Tropentarn)</English>
+      <German>IdZ-Tarnanzug (Tropentarn)</German>
+    </Key>
+
+    <Key ID="STR_BWA3_GroupClassInfFleckName">
+      <English>Infantry (Flecktarn)</English>
+      <German>Infanterie (Flecktarn)</German>
+    </Key>
+    <Key ID="STR_BWA3_GroupClassInfTropenName">
+      <English>Infantry (Tropentarn)</English>
+      <German>Infanterie (Tropentarn)</German>
+    </Key>
+    <Key ID="STR_BWA3_GroupClassMechFleckName">
+      <English>Mechanized (Flecktarn)</English>
+      <German>Mechanisiert (Flecktarn)</German>
+    </Key>
+    <Key ID="STR_BWA3_GroupClassMechTropenName">
+      <English>Mechanized (Tropentarn)</English>
+      <German>Mechanisiert (Tropentarn)</German>
+    </Key>
+    <Key ID="STR_BWA3_GroupClassSpecOpsFleckName">
+      <English>Special Forces (Flecktarn)</English>
+      <German>Spezialkräfte (Flecktarn)</German>
+    </Key>
+    <Key ID="STR_BWA3_GroupClassSpecOpsTropenName">
+      <English>Special Forces (Tropentarn)</English>
+      <German>Spezialkräfte (Tropentarn)</German>
+    </Key>
+    <Key ID="STR_BWA3_GroupClassReconName">
+      <English>Fernspäher</English>
+      <German>Fernspäher</German>
+    </Key>
+
+    <Key ID="STR_BWA3_GroupClassJaegerFleckName">
+      <English>Jägertrupp</English>
+      <German>Jägertrupp</German>
+    </Key>
+    <Key ID="STR_BWA3_GroupClassJaegerTropenName">
+      <English>Jägertrupp</English>
+      <German>Jägertrupp</German>
+    </Key>
+    <Key ID="STR_BWA3_GroupClassATFleckName">
+      <English>Panzerabwehrtrupp</English>
+      <German>Panzerabwehrtrupp</German>
+    </Key>
+    <Key ID="STR_BWA3_GroupClassATTropenName">
+      <English>Panzerabwehrtrupp</English>
+      <German>Panzerabwehrtrupp</German>
+    </Key>
+    <Key ID="STR_BWA3_GroupClassPzGrenFleckName">
+      <English>Panzergrenadiergruppe</English>
+      <German>Panzergrenadiergruppe</German>
+    </Key>
+    <Key ID="STR_BWA3_GroupClassPzGrenTropenName">
+      <English>Panzergrenadiergruppe</English>
+      <German>Panzergrenadiergruppe</German>
+    </Key>
+    <Key ID="STR_BWA3_GroupClassPanzerFleckName">
+      <English>Panzerzug</English>
+      <German>Panzerzug</German>
+    </Key>
+    <Key ID="STR_BWA3_GroupClassPanzerTropenName">
+      <English>Panzerzug</English>
+      <German>Panzerzug</German>
+    </Key>
+
+    <Key ID="STR_BWA3_IdentityNameJuergen">
+      <English>Jürgen</English>
+      <German>Jürgen</German>
+    </Key>
+    <Key ID="STR_BWA3_IdentityNameGuenter">
+      <English>Günter</English>
+      <German>Günter</German>
+    </Key>
+    <Key ID="STR_BWA3_IdentityNameJoerg">
+      <English>Jörg</English>
+      <German>Jörg</German>
+    </Key>
+    <Key ID="STR_BWA3_IdentityNameMueller">
+      <English>Müller</English>
+      <German>Müller</German>
+    </Key>
+    <Key ID="STR_BWA3_IdentityNameSchaefer">
+      <English>Schäfer</English>
+      <German>Schäfer</German>
+    </Key>
+    <Key ID="STR_BWA3_IdentityNameSchroeder">
+      <English>Schröder</English>
+      <German>Schröder</German>
+    </Key>
+    <Key ID="STR_BWA3_IdentityNameKrueger">
+      <English>Krüger</English>
+      <German>Krüger</German>
+    </Key>
+    <Key ID="STR_BWA3_IdentityNameKoehler">
+      <English>Köhler</English>
+      <German>Köhler</German>
+    </Key>
+    <Key ID="STR_BWA3_IdentityNameKoenig">
+      <English>König</English>
+      <German>König</German>
+    </Key>
+    <Key ID="STR_BWA3_IdentityNameMoeller">
+      <English>Möller</English>
+      <German>Möller</German>
+    </Key>
+    <Key ID="STR_BWA3_IdentityNameWeiss">
+      <English>Weiß</English>
+      <German>Weiß</German>
+    </Key>
+
+  </Package>
+</Project>
